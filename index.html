@@ -3,323 +3,312 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Web3 in Nigeria — Challenges &amp; Prospects</title>
-<meta name="description" content="A feasibility study on Web3 development in Nigeria: infrastructure, talent, regulation, and the road ahead.">
+<title>Web3 Development in Nigeria — Challenges and Prospects</title>
+<meta name="description" content="A Feasibility Study: Challenges and Prospects of Web3 Development in Nigeria — Minna Institute of Technology and Innovation.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<div class="grain"></div>
-
 <!-- NAV -->
 <nav class="nav">
   <div class="nav-inner">
-    <span class="nav-mark">MITI · Web3NG</span>
+    <span class="nav-mark">MITI</span>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#intro">Introduction</a></li>
-      <li><a href="#overview">Overview</a></li>
-      <li><a href="#feasibility">Feasibility</a></li>
-      <li><a href="#balance">Advantages &amp; Risks</a></li>
-      <li><a href="#conclusion">Conclusion</a></li>
+      <li><a href="#toc">Contents</a></li>
+      <li><a href="#ch1">01</a></li>
+      <li><a href="#ch2">02</a></li>
+      <li><a href="#ch3">03</a></li>
+      <li><a href="#ch4">04</a></li>
+      <li><a href="#ch5">05</a></li>
     </ul>
   </div>
 </nav>
 
-<!-- HERO -->
-<header class="hero">
-  <div class="hero-motif" aria-hidden="true"></div>
-  <div class="hero-inner">
-    <p class="eyebrow">A Feasibility Study · Minna Institute of Technology and Innovation</p>
-    <h1 class="hero-title">Web3 in Nigeria<span class="hero-title-sub">Challenges and Prospects</span></h1>
-    <p class="hero-dek">The internet's next layer runs on blockchain — letting people hold their own money and data without a company standing in between. Here's what that looks like from Lagos to Kano.</p>
-    <div class="hero-stats">
-      <div class="stat">
-        <span class="stat-num">#1</span>
-        <span class="stat-label">Youth population in Africa</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">70%+</span>
-        <span class="stat-label">Own or use crypto, among surveyed peers</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">5</span>
-        <span class="stat-label">Chapters of findings</span>
-      </div>
-    </div>
-    <div class="hero-authors">
-      <span>Idris G. Ahmad — CSC/2025/043</span>
-      <span class="dot">·</span>
-      <span>Hauwa Madaki — CSC/2025/107</span>
+<!-- SLIDE 1 — COVER -->
+<header class="slide cover" id="cover">
+  <div class="cover-inner">
+    <p class="cover-school">Minna Institute of Technology and Innovation</p>
+    <img src="assets/image-1-1.png" alt="" class="cover-mark">
+    <p class="cover-eyebrow">Challenges and Prospects of</p>
+    <h1 class="cover-title">Web3 Development<br>in Nigeria</h1>
+    <p class="cover-sub">A Feasibility Study</p>
+    <div class="cover-authors">
+      <p class="cover-by">Presented by</p>
+      <p class="cover-name">Idris G. Ahmad <span>— CSC/2025/043</span></p>
+      <p class="cover-name">Hauwa Madaki <span>— CSC/2025/107</span></p>
     </div>
   </div>
-  <a href="#intro" class="scroll-cue" aria-label="Scroll to content">
-    <span></span>
-  </a>
 </header>
 
-<main>
+<!-- SLIDE 2 — TABLE OF CONTENTS -->
+<section class="slide toc" id="toc">
+  <div class="slide-inner">
+    <h2 class="toc-title">Table of Contents</h2>
+    <ol class="toc-list">
+      <li><a href="#ch1"><span class="toc-num">01</span><span class="toc-text"><span class="toc-chapter">Chapter One</span>Introduction</span></a></li>
+      <li><a href="#ch2"><span class="toc-num">02</span><span class="toc-text"><span class="toc-chapter">Chapter Two</span>Project Overview</span></a></li>
+      <li><a href="#ch3"><span class="toc-num">03</span><span class="toc-text"><span class="toc-chapter">Chapter Three</span>Methodology and Technical Feasibility</span></a></li>
+      <li><a href="#ch4"><span class="toc-num">04</span><span class="toc-text"><span class="toc-chapter">Chapter Four</span>Advantages and Disadvantages of Web3 Development in Nigeria</span></a></li>
+      <li><a href="#ch5"><span class="toc-num">05</span><span class="toc-text"><span class="toc-chapter">Chapter Five</span>Summary and Conclusion</span></a></li>
+    </ol>
+  </div>
+</section>
 
-  <!-- CHAPTER 01 — INTRODUCTION -->
-  <section class="chapter" id="intro">
-    <div class="chapter-inner">
-      <div class="chapter-head">
-        <span class="chapter-num">01</span>
-        <div>
-          <p class="chapter-kicker">Chapter One</p>
-          <h2 class="chapter-title">Introduction</h2>
-        </div>
+<!-- SLIDE 3 — CHAPTER ONE: INTRODUCTION -->
+<section class="slide" id="ch1">
+  <div class="slide-inner">
+    <p class="chapter-label">Chapter One</p>
+    <h2 class="slide-title">Introduction</h2>
+    <p class="slide-kicker">Background of the study</p>
+
+    <div class="split">
+      <div class="split-main">
+        <ul class="bullets">
+          <li>Web3 is the new version of the internet that runs on blockchain — letting people own and control their own data and money directly, without one company in the middle.</li>
+          <li>Examples include cryptocurrency, NFTs, and apps that don't need a bank or a big company as an intermediary.</li>
+          <li>Many young Nigerians have started using Web3, driven by a large youth population, widespread smartphone use, and a naira that keeps losing value.</li>
+          <li>As smartphone and internet access expand, adoption is expected to deepen, positioning Nigeria as a leading African hub for crypto and blockchain activity.</li>
+        </ul>
       </div>
+      <aside class="callout">
+        <img src="assets/image-3-1.png" alt="" class="callout-icon">
+        <h3>Why Nigeria?</h3>
+        <ul class="callout-list">
+          <li>Largest youth population in Africa</li>
+          <li>High smartphone &amp; mobile internet use</li>
+          <li>Naira depreciation driving alternatives</li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
 
-      <div class="chapter-body">
-        <div class="lede-col">
-          <p class="lede">Web3 is the new version of the internet that runs on blockchain — letting people own and control their own data and money directly, without one company in the middle.</p>
-          <p>Examples include cryptocurrency, NFTs, and applications that need no bank or big company as an intermediary. Many young Nigerians have already started using Web3, driven by a large youth population, widespread smartphone use, and a naira that keeps losing value.</p>
-          <p>As smartphone and internet access expand, adoption is expected to deepen — positioning Nigeria as a leading African hub for crypto and blockchain activity.</p>
-        </div>
-        <aside class="why-card">
-          <h3>Why Nigeria?</h3>
-          <ul class="why-list">
-            <li>
-              <span class="why-icon" data-icon="people"></span>
-              <span>Largest youth population in Africa</span>
-            </li>
-            <li>
-              <span class="why-icon" data-icon="phone"></span>
-              <span>High smartphone &amp; mobile internet use</span>
-            </li>
-            <li>
-              <span class="why-icon" data-icon="chart"></span>
-              <span>Naira depreciation driving alternatives</span>
-            </li>
-          </ul>
-        </aside>
+<!-- SLIDE 4 — CHAPTER TWO: PROJECT OVERVIEW -->
+<section class="slide slide-alt" id="ch2">
+  <div class="slide-inner">
+    <p class="chapter-label">Chapter Two</p>
+    <h2 class="slide-title">Project Overview</h2>
+
+    <div class="two-col">
+      <div class="col-card">
+        <img src="assets/image-4-1.png" alt="" class="col-icon">
+        <p class="col-num">2.1</p>
+        <h3>What is Web3</h3>
+        <p>Web3 is the new version of the internet built on blockchain. Unlike Web2 platforms (Facebook, Google, bank apps), no single company controls it.</p>
+        <p class="col-examples"><strong>Examples:</strong></p>
+        <ul class="plain-list">
+          <li>Bitcoin &amp; Ethereum</li>
+          <li>Crypto wallets (MetaMask)</li>
+          <li>NFTs</li>
+        </ul>
+      </div>
+      <div class="col-card">
+        <img src="assets/image-4-2.png" alt="" class="col-icon">
+        <p class="col-num">2.2</p>
+        <h3>Web3 Developers in Nigeria</h3>
+        <p>Beyond trading crypto, Nigeria has many people building Web3 projects, apps, wallets, and blockchain tools.</p>
+        <p>Some work for Nigerian startups; others work remotely for foreign companies for better pay and opportunity.</p>
+        <p>Growth is expected as more universities add blockchain and smart contract development to their curricula, expanding the local talent pool.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CHAPTER 02 — PROJECT OVERVIEW -->
-  <section class="chapter chapter-alt" id="overview">
-    <div class="chapter-inner">
-      <div class="chapter-head">
-        <span class="chapter-num">02</span>
-        <div>
-          <p class="chapter-kicker">Chapter Two</p>
-          <h2 class="chapter-title">Project Overview</h2>
-        </div>
+<!-- SLIDE 5 — CHAPTER THREE: METHODOLOGY & TECHNICAL FEASIBILITY -->
+<section class="slide" id="ch3">
+  <div class="slide-inner">
+    <p class="chapter-label">Chapter Three</p>
+    <h2 class="slide-title">Methodology &amp; Technical Feasibility</h2>
+    <p class="slide-kicker">3.1 — Factors shaping whether Web3 can realistically work in Nigeria</p>
+
+    <div class="factor-grid">
+      <div class="factor-card">
+        <img src="assets/image-5-1.png" alt="" class="factor-icon">
+        <h3>Infrastructure Gaps</h3>
+        <p>Inconsistent electricity and internet disrupt access and slow development work.</p>
       </div>
-
-      <div class="overview-grid">
-        <div class="overview-card">
-          <p class="overview-num">2.1</p>
-          <h3>What is Web3</h3>
-          <p>Web3 is the new version of the internet built on blockchain. Unlike Web2 platforms — Facebook, Google, bank apps — no single company controls it.</p>
-          <div class="tag-row">
-            <span class="tag">Bitcoin &amp; Ethereum</span>
-            <span class="tag">Crypto wallets (MetaMask)</span>
-            <span class="tag">NFTs</span>
-          </div>
-        </div>
-        <div class="overview-card">
-          <p class="overview-num">2.2</p>
-          <h3>Web3 Developers in Nigeria</h3>
-          <p>Beyond trading crypto, Nigeria has a growing base of people building Web3 projects — apps, wallets, and blockchain tools. Some work for Nigerian startups; others work remotely for foreign companies, for better pay and opportunity.</p>
-          <p class="overview-foot">Growth is expected as more universities add blockchain and smart-contract development to their curricula, expanding the local talent pool.</p>
-        </div>
+      <div class="factor-card">
+        <img src="assets/image-5-2.png" alt="" class="factor-icon">
+        <h3>Limited Developer Pool</h3>
+        <p>A growing but still limited pool of skilled blockchain developers in the country.</p>
       </div>
-    </div>
-  </section>
-
-  <!-- CHAPTER 03 — METHODOLOGY -->
-  <section class="chapter" id="feasibility">
-    <div class="chapter-inner">
-      <div class="chapter-head">
-        <span class="chapter-num">03</span>
-        <div>
-          <p class="chapter-kicker">Chapter Three</p>
-          <h2 class="chapter-title">Methodology &amp; Technical Feasibility</h2>
-        </div>
+      <div class="factor-card">
+        <img src="assets/image-5-3.png" alt="" class="factor-icon">
+        <h3>Mobile Accessibility</h3>
+        <p>Tools like MetaMask and Ethereum are reachable via smartphones and basic internet.</p>
       </div>
-      <p class="section-sub">3.1 — Factors shaping whether Web3 can realistically work in Nigeria</p>
-
-      <div class="factor-grid">
-        <div class="factor-card">
-          <span class="factor-icon" data-icon="signal"></span>
-          <h3>Infrastructure Gaps</h3>
-          <p>Inconsistent electricity and internet disrupt access and slow development work.</p>
-        </div>
-        <div class="factor-card">
-          <span class="factor-icon" data-icon="code"></span>
-          <h3>Limited Developer Pool</h3>
-          <p>A growing but still limited pool of skilled blockchain developers in the country.</p>
-        </div>
-        <div class="factor-card">
-          <span class="factor-icon" data-icon="phone"></span>
-          <h3>Mobile Accessibility</h3>
-          <p>Tools like MetaMask and Ethereum are reachable via smartphones and basic internet.</p>
-        </div>
-        <div class="factor-card">
-          <span class="factor-icon" data-icon="scale"></span>
-          <h3>Regulatory Uncertainty</h3>
-          <p>Absence of clear government regulation creates risk for financial and blockchain products.</p>
-        </div>
-      </div>
-
-      <div class="verdict">
-        <span class="verdict-label">Verdict</span>
-        <p>Web3 development is technically feasible on a small-to-medium scale <em>today</em> — nationwide adoption depends on infrastructure, talent, and regulatory progress.</p>
-      </div>
-
-      <div class="method-grid">
-        <div class="method-card">
-          <p class="overview-num">3.2</p>
-          <h3>Method of Data Collection</h3>
-          <p>A questionnaire was created with simple questions about Web3 challenges and opportunities in Nigeria. It was shared online and answered by selected respondents.</p>
-        </div>
-        <div class="method-card">
-          <p class="overview-num">3.3</p>
-          <h3>Method of Data Analysis</h3>
-          <p>Responses were arranged into simple tables to show what most people said about each question. Many respondents answered correctly — indicating real interest in, and awareness of, Web3 in Nigeria.</p>
-        </div>
+      <div class="factor-card">
+        <img src="assets/image-5-4.png" alt="" class="factor-icon">
+        <h3>Regulatory Uncertainty</h3>
+        <p>Absence of clear government regulation creates risk for financial/blockchain products.</p>
       </div>
     </div>
-  </section>
 
-  <!-- CHAPTER 04 — ADVANTAGES / DISADVANTAGES -->
-  <section class="chapter chapter-alt" id="balance">
-    <div class="chapter-inner">
-      <div class="chapter-head">
-        <span class="chapter-num">04</span>
-        <div>
-          <p class="chapter-kicker">Chapter Four</p>
-          <h2 class="chapter-title">Weighing the Balance</h2>
-        </div>
+    <div class="verdict">
+      <img src="assets/image-5-5.png" alt="" class="verdict-icon">
+      <p><strong>Verdict:</strong> Web3 development is technically feasible on a small-to-medium scale today — nationwide adoption depends on infrastructure, talent, and regulatory progress.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SLIDE 6 — CHAPTER THREE (CONTINUED): DATA COLLECTION & ANALYSIS -->
+<section class="slide slide-alt" id="ch3b">
+  <div class="slide-inner">
+    <p class="chapter-label">Chapter Three (continued)</p>
+    <h2 class="slide-title">Data Collection &amp; Analysis</h2>
+
+    <div class="two-col">
+      <div class="col-card">
+        <img src="assets/image-6-1.png" alt="" class="col-icon">
+        <p class="col-num">3.2</p>
+        <h3>Method of Data Collection</h3>
+        <p>A questionnaire was created with simple questions about Web3 challenges and opportunities in Nigeria. It was shared online and answered by selected respondents.</p>
       </div>
-
-      <div class="balance-columns">
-        <div class="balance-col balance-pro">
-          <h3 class="balance-title"><span class="balance-mark">+</span> Advantages</h3>
-          <div class="balance-list">
-            <div class="balance-item">
-              <span class="b-icon" data-icon="wallet"></span>
-              <div><h4>Financial Inclusion</h4><p>Crypto wallets give millions of unbanked Nigerians access to financial services.</p></div>
-            </div>
-            <div class="balance-item">
-              <span class="b-icon" data-icon="shield"></span>
-              <div><h4>Hedge Against Inflation</h4><p>As the naira loses value, more Nigerians turn to crypto to preserve savings.</p></div>
-            </div>
-            <div class="balance-item">
-              <span class="b-icon" data-icon="briefcase"></span>
-              <div><h4>Job &amp; Income Opportunities</h4><p>New income streams through trading, freelance development, and remote jobs.</p></div>
-            </div>
-            <div class="balance-item">
-              <span class="b-icon" data-icon="bolt"></span>
-              <div><h4>Faster, Cheaper Transactions</h4><p>Crypto enables quicker, lower-cost international transfers than traditional banks.</p></div>
-            </div>
-            <div class="balance-item">
-              <span class="b-icon" data-icon="spark"></span>
-              <div><h4>Innovation &amp; Skill Growth</h4><p>Developers learn smart contracts and blockchain programming, raising the tech profile.</p></div>
-            </div>
-            <div class="balance-item">
-              <span class="b-icon" data-icon="rocket"></span>
-              <div><h4>Entrepreneurship</h4><p>Opens doors for Nigerians to launch blockchain-based startups and businesses.</p></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="balance-col balance-con">
-          <h3 class="balance-title"><span class="balance-mark">–</span> Disadvantages</h3>
-          <div class="balance-list">
-            <div class="balance-item">
-              <span class="b-icon" data-icon="scale"></span>
-              <div><h4>Regulatory Uncertainty</h4><p>Lack of clear laws makes it risky for developers and discourages institutional investment.</p></div>
-            </div>
-            <div class="balance-item">
-              <span class="b-icon" data-icon="alert"></span>
-              <div><h4>Scams &amp; Fraud</h4><p>Many Nigerians have lost money to fake platforms, Ponzi schemes, and fraudulent airdrops.</p></div>
-            </div>
-            <div class="balance-item">
-              <span class="b-icon" data-icon="signal"></span>
-              <div><h4>Poor Infrastructure</h4><p>Unstable electricity and internet make reliable building and access difficult.</p></div>
-            </div>
-            <div class="balance-item">
-              <span class="b-icon" data-icon="planeexit"></span>
-              <div><h4>Developer Brain Drain</h4><p>Many skilled developers leave, or work exclusively for foreign companies.</p></div>
-            </div>
-            <div class="balance-item">
-              <span class="b-icon" data-icon="coin"></span>
-              <div><h4>Limited Funding</h4><p>Local startups struggle to access capital compared to more developed crypto markets.</p></div>
-            </div>
-            <div class="balance-item">
-              <span class="b-icon" data-icon="book"></span>
-              <div><h4>Low Public Education</h4><p>Many Nigerians don't fully understand Web3, leaving them vulnerable to scams.</p></div>
-            </div>
-          </div>
-        </div>
+      <div class="col-card">
+        <img src="assets/image-6-2.png" alt="" class="col-icon">
+        <p class="col-num">3.3</p>
+        <h3>Method of Data Analysis</h3>
+        <p>Responses were arranged into simple tables to show what most people said about each question. Many respondents answered correctly, indicating real interest in and awareness of Web3 in Nigeria.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CHAPTER 05 — SUMMARY & RECOMMENDATIONS -->
-  <section class="chapter" id="recommendations">
-    <div class="chapter-inner">
-      <div class="chapter-head">
-        <span class="chapter-num">05</span>
-        <div>
-          <p class="chapter-kicker">Chapter Five</p>
-          <h2 class="chapter-title">Summary &amp; Recommendations</h2>
-        </div>
+<!-- SLIDE 7 — CHAPTER FOUR: ADVANTAGES -->
+<section class="slide" id="ch4">
+  <div class="slide-inner">
+    <p class="chapter-label">Chapter Four</p>
+    <h2 class="slide-title">Advantages of Web3 in Nigeria</h2>
+
+    <div class="factor-grid factor-grid-6">
+      <div class="factor-card">
+        <img src="assets/image-7-1.png" alt="" class="factor-icon">
+        <h3>Financial Inclusion</h3>
+        <p>Crypto wallets give millions of unbanked Nigerians access to financial services.</p>
       </div>
-
-      <p class="lede rec-lede">Most Nigerians surveyed are aware of Web3 and believe it has a good future — but unclear laws, poor electricity and internet, and low funding are slowing growth.</p>
-
-      <ol class="rec-list">
-        <li>
-          <span class="rec-index">01</span>
-          <p>Government to create clear, simple laws for crypto and blockchain.</p>
-        </li>
-        <li>
-          <span class="rec-index">02</span>
-          <p>Improve electricity and internet services to support developers.</p>
-        </li>
-        <li>
-          <span class="rec-index">03</span>
-          <p>Increase funding and support for local Web3 startups.</p>
-        </li>
-        <li>
-          <span class="rec-index">04</span>
-          <p>Educate the public on how to spot and avoid crypto scams.</p>
-        </li>
-        <li>
-          <span class="rec-index">05</span>
-          <p>Introduce crypto and Web3 basics into school curricula.</p>
-        </li>
-      </ol>
+      <div class="factor-card">
+        <img src="assets/image-7-2.png" alt="" class="factor-icon">
+        <h3>Hedge Against Inflation</h3>
+        <p>As the naira loses value, more Nigerians turn to crypto to preserve savings.</p>
+      </div>
+      <div class="factor-card">
+        <img src="assets/image-7-3.png" alt="" class="factor-icon">
+        <h3>Job &amp; Income Opportunities</h3>
+        <p>New income streams through trading, freelance development, and remote jobs.</p>
+      </div>
+      <div class="factor-card">
+        <img src="assets/image-7-4.png" alt="" class="factor-icon">
+        <h3>Faster, Cheaper Transactions</h3>
+        <p>Crypto enables quicker, lower-cost international transfers than traditional banks.</p>
+      </div>
+      <div class="factor-card">
+        <img src="assets/image-7-5.png" alt="" class="factor-icon">
+        <h3>Innovation &amp; Skill Growth</h3>
+        <p>Developers learn smart contracts and blockchain programming, raising the tech profile.</p>
+      </div>
+      <div class="factor-card">
+        <img src="assets/image-7-6.png" alt="" class="factor-icon">
+        <h3>Entrepreneurship</h3>
+        <p>Opens doors for Nigerians to launch blockchain-based startups and businesses.</p>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CONCLUSION -->
-  <section class="conclusion" id="conclusion">
-    <div class="conclusion-motif" aria-hidden="true"></div>
-    <div class="conclusion-inner">
-      <p class="eyebrow eyebrow-light">Conclusion</p>
-      <p class="conclusion-text">Web3 in Nigeria has strong potential because of the young, tech-savvy population and high interest in crypto. If the challenges identified in this study are addressed, adoption will likely accelerate, more local blockchain startups will emerge, and Nigeria will be better positioned to become a leading Web3 hub in Africa.</p>
+<!-- SLIDE 8 — CHAPTER FOUR (CONTINUED): DISADVANTAGES -->
+<section class="slide slide-alt" id="ch4b">
+  <div class="slide-inner">
+    <p class="chapter-label">Chapter Four (continued)</p>
+    <h2 class="slide-title">Disadvantages of Web3 in Nigeria</h2>
+
+    <div class="factor-grid factor-grid-6">
+      <div class="factor-card">
+        <img src="assets/image-8-1.png" alt="" class="factor-icon">
+        <h3>Regulatory Uncertainty</h3>
+        <p>Lack of clear laws makes it risky for developers and discourages institutional investment.</p>
+      </div>
+      <div class="factor-card">
+        <img src="assets/image-8-2.png" alt="" class="factor-icon">
+        <h3>Scams &amp; Fraud</h3>
+        <p>Many Nigerians have lost money to fake platforms, Ponzi schemes, and fraudulent airdrops.</p>
+      </div>
+      <div class="factor-card">
+        <img src="assets/image-8-3.png" alt="" class="factor-icon">
+        <h3>Poor Infrastructure</h3>
+        <p>Unstable electricity and internet make reliable building and access difficult.</p>
+      </div>
+      <div class="factor-card">
+        <img src="assets/image-8-4.png" alt="" class="factor-icon">
+        <h3>Developer Brain Drain</h3>
+        <p>Many skilled developers leave or work exclusively for foreign companies.</p>
+      </div>
+      <div class="factor-card">
+        <img src="assets/image-8-5.png" alt="" class="factor-icon">
+        <h3>Limited Funding</h3>
+        <p>Local startups struggle to access capital compared to more developed crypto markets.</p>
+      </div>
+      <div class="factor-card">
+        <img src="assets/image-8-6.png" alt="" class="factor-icon">
+        <h3>Low Public Education</h3>
+        <p>Many Nigerians don't fully understand Web3, leaving them vulnerable to scams.</p>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-</main>
+<!-- SLIDE 9 — CHAPTER FIVE: SUMMARY & RECOMMENDATIONS -->
+<section class="slide" id="ch5">
+  <div class="slide-inner">
+    <p class="chapter-label">Chapter Five</p>
+    <h2 class="slide-title">Summary &amp; Recommendations</h2>
+    <p class="summary-text">Most Nigerians surveyed are aware of Web3 and believe it has a good future — but unclear laws, poor electricity and internet, and low funding are slowing growth.</p>
+
+    <ul class="rec-list">
+      <li>
+        <img src="assets/image-9-1.png" alt="" class="rec-icon">
+        <p>Government to create clear, simple laws for crypto and blockchain.</p>
+      </li>
+      <li>
+        <img src="assets/image-9-2.png" alt="" class="rec-icon">
+        <p>Improve electricity and internet services to support developers.</p>
+      </li>
+      <li>
+        <img src="assets/image-9-3.png" alt="" class="rec-icon">
+        <p>Increase funding and support for local Web3 startups.</p>
+      </li>
+      <li>
+        <img src="assets/image-9-4.png" alt="" class="rec-icon">
+        <p>Educate the public on how to spot and avoid crypto scams.</p>
+      </li>
+      <li>
+        <img src="assets/image-9-5.png" alt="" class="rec-icon">
+        <p>Introduce crypto and Web3 basics into school curricula.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- SLIDE 10 — CONCLUSION -->
+<section class="slide cover conclusion" id="conclusion">
+  <div class="cover-inner">
+    <img src="assets/image-10-1.png" alt="" class="conclusion-mark">
+    <h2 class="conclusion-title">Conclusion</h2>
+    <p class="conclusion-text">Web3 in Nigeria has strong potential because of the young, tech-savvy population and high interest in crypto. If the challenges identified in this study are addressed, adoption will likely accelerate, more local blockchain startups will emerge, and Nigeria will be better positioned to become a leading Web3 hub in Africa.</p>
+    <p class="thank-you">Thank You</p>
+    <p class="conclusion-authors">Idris G. Ahmad (CSC/2025/043) &nbsp;•&nbsp; Hauwa Madaki (CSC/2025/107)</p>
+    <p class="conclusion-inst">Minna Institute of Technology and Innovation</p>
+  </div>
+</section>
 
 <footer class="footer">
-  <div class="footer-inner">
-    <p class="footer-thanks">Thank You</p>
-    <p class="footer-authors">Idris G. Ahmad (CSC/2025/043) &nbsp;·&nbsp; Hauwa Madaki (CSC/2025/107)</p>
-    <p class="footer-inst">Minna Institute of Technology and Innovation</p>
-  </div>
+  <p>Built by Idris G. Ahmad &amp; Hauwa Madaki</p>
+  <p class="copyright">&copy;2026</p>
 </footer>
 
 <script src="script.js"></script>

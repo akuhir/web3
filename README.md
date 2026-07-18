@@ -1,13 +1,19 @@
-# Web3 Development in Nigeria — Feasibility Study
+# Web3 Development in Nigeria — Static Site
 
-Static website version of the presentation, mirroring the original deck slide-for-slide (same titles, same wording, same icons), in black & white.
+Black & white static site version of the presentation. Every point and subheading
+is rendered as a solid black callout card with its own custom-generated icon.
 
 ## Files
 
-- `index.html` — all 10 slides as sections, same order and titles as the deck
-- `styles.css` — black & white styling
+- `index.html` — all 10 slides as sections, one section per deck slide
+- `styles.css` — strict black & white styling, black callout card system
 - `script.js` — mobile nav toggle
-- `assets/` — the original icons extracted from the .pptx
+- `assets/` —49 custom-generated PNG icons (one per point/subheading), white line art on transparent background, plus cover and conclusion marks
+
+## Icon naming
+
+Icons are named by slide/topic, e.g. `def-decentralization.png`, `challenge-regulatory.png`,
+`future-education.png`. Each is referenced exactly once in `index.html`.
 
 ## Host it on GitHub Pages
 

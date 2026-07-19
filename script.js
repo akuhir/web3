@@ -141,33 +141,3 @@ document.addEventListener('keydown', (e) => {
     goToSection(sectionIds.length - 1);
   }
 });
-
-// ============================================
-// TOUCH SWIPE NAVIGATION (mobile)
-// ============================================
-let touchStartY = 0;
-let touchEndY = 0;
-const SWIPE_THRESHOLD = 60;
-
-document.addEventListener('touchstart', (e) => {
-  touchStartY = e.changedTouches[0].screenY;
-}, { passive: true });
-
-document.addEventListener('touchend', (e) => {
-  touchEndY = e.changedTouches[0].screenY;
-  handleSwipe();
-}, { passive: true });
-
-function handleSwipe() {
-  if (!presentation || !presentation.classList.contains('presentation-visible')) return;
-  const delta = touchStartY - touchEndY;
-  if (Math.abs(delta) < SWIPE_THRESHOLD) return;
-
-  if (delta > 0) {
-    // swiped up -> next section
-    goToSection(getCurrentSectionIndex() + 1);
-  } else {
-    // swiped down -> previous section
-    goToSection(getCurrentSectionIndex() - 1);
-  }
-}
